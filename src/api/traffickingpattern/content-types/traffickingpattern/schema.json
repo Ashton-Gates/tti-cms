@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trafficking_patterns",
+  "info": {
+    "singularName": "traffickingpattern",
+    "pluralName": "trafficking-patterns",
+    "displayName": "Trafficking Patterns"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tactic_id": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "used_in": {
+      "type": "string"
+    },
+    "first_seen": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "string"
+    },
+    "codewords": {
+      "type": "text"
+    },
+    "threat_level": {
+      "type": "enumeration",
+      "enum": [
+        "High",
+        "Medium",
+        "Low"
+      ]
+    },
+    "summary_short": {
+      "type": "richtext"
+    },
+    "survivor_insight": {
+      "type": "richtext"
+    },
+    "response_notes": {
+      "type": "richtext"
+    },
+    "related_tactics": {
+      "type": "string"
+    }
+  }
+}

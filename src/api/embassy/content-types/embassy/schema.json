@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "embassies",
+  "info": {
+    "singularName": "embassy",
+    "pluralName": "embassies",
+    "displayName": "Embassies"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "entry_id": {
+      "type": "uid"
+    },
+    "country": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "embassy_name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "contact_phone": {
+      "type": "string"
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "emergency_hours": {
+      "type": "string"
+    },
+    "languages_spoken": {
+      "type": "text"
+    },
+    "services_offered": {
+      "type": "text"
+    },
+    "when_to_contact": {
+      "type": "richtext"
+    },
+    "recommended_script": {
+      "type": "richtext"
+    },
+    "notes": {
+      "type": "richtext"
+    }
+  }
+}

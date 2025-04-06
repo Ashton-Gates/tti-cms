@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trusted_orgs",
+  "info": {
+    "singularName": "trustedorganization",
+    "pluralName": "trusted-orgs",
+    "displayName": "Trusted organizations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "org_id": {
+      "type": "uid"
+    },
+    "org_name": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "languages_spoken": {
+      "type": "text"
+    },
+    "hotline_or_contact": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "website": {
+      "type": "string"
+    },
+    "services_offered": {
+      "type": "text"
+    },
+    "vetting_notes": {
+      "type": "richtext"
+    },
+    "when_to_refer": {
+      "type": "richtext"
+    },
+    "referral_script": {
+      "type": "richtext"
+    }
+  }
+}

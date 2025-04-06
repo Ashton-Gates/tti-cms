@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "defense_tactics",
+  "info": {
+    "singularName": "defensetactic",
+    "pluralName": "defense-tactics",
+    "displayName": "Defense Tactic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "defense_id": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "use_case": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "recommended_for": {
+      "type": "string"
+    },
+    "resource_link": {
+      "type": "string"
+    },
+    "response_script": {
+      "type": "richtext"
+    },
+    "notes": {
+      "type": "richtext"
+    }
+  }
+}
